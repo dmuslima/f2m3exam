@@ -1,0 +1,65 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.kartochki{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+.card{
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px -1px 30px rgb(152, 152, 152);
+    height: 500px;
+}
+.img{
+    width: 60%;
+    height: 150px;
+}
+.title{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.description{
+    font-size: 14px;
+    color: grey;
+}
+.category{
+    text-transform: capitalize;
+}
+.span{
+    font-weight: 700;
+}
+.price{
+    color: green;
+    font-weight: 600;
+    margin: 10px ;
+    font-size: 25px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgb(70, 174, 70);
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+.container h1{
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 40px;
+}
